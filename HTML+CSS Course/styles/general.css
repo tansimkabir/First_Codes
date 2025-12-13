@@ -4,6 +4,8 @@ p {
       margin-bottom: 0;
     }
 
-    body{
+body{
   margin: 0;
+  padding-top: 80px;
+  padding-left: 80px;
 }
