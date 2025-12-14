@@ -1,0 +1,49 @@
+body {
+  height: 3000px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.image-div {
+  position: relative;
+  top: 100px;
+  left: 100px;
+
+  width: 500px;
+  height: 500px;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.cart-div{
+  width: 500px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-button{
+  background-color: white;
+  font-family: Arial;
+  font-size: 22px;
+  padding: 12px 20px;
+  border: 3px solid;
+}
