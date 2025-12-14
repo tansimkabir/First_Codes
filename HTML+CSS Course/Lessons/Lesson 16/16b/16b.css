@@ -1,0 +1,7 @@
+.video-info a,
+.video-info a:visited, 
+.video-info a:hover, 
+.video-info a:active {
+  color: inherit;
+  text-decoration: none;
+}
