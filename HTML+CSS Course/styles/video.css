@@ -1,0 +1,130 @@
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video-info a,
+.video-info a:visited,
+.video-info a:hover,
+.video-info a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  body{
+    font-size: 14px;
+  }
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.thumbnail-div {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-time {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.profile-picture-container {
+  position: relative;
+}
+
+.tool-div {
+  background-color: white;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -100px;
+  width: 220px;
+  height: 90px;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  z-index: 200;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.profile-picture-container:hover .tool-div {
+  opacity: 1;
+}
+
+.profile-picture2 {
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.channel-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.channel-subscribers {
+  color: rgb(96, 96, 96);
+}

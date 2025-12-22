@@ -1,0 +1,5 @@
+.name-bar,
+      .email-bar{
+        display: block;
+        margin: 8px 0;
+      }

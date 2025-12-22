@@ -1,0 +1,9 @@
+.text{
+  width: 210px;
+}
+.text,
+.yes-button,
+.no-button{
+  display: inline-block;
+  vertical-align: middle;
+}

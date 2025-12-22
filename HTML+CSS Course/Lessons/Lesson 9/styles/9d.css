@@ -1,0 +1,22 @@
+.div{
+  width: 465px;
+  height: 140px;
+  background-color: rgb(54, 54, 54);
+  padding-left: 15px;
+  padding-top: 1px;
+}
+
+.install-text{
+  color:white;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.text{
+  color: rgb(200, 200, 200);
+  font-family: Arial;
+  font-size: 20px;
+  width: 450px;
+  margin-top: -10px;
+}

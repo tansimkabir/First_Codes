@@ -1,0 +1,9 @@
+.search-box{
+        font-family: Arial;
+        padding-left: 10px; 
+        width: 400px;
+        height: 30px;
+        border: none;
+        border-radius: 100px;
+        box-shadow: 0px 0px 5px rgb(180, 177, 177);
+      }

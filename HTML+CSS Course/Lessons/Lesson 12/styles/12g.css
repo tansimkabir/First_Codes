@@ -1,0 +1,51 @@
+img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 4px;
+}
+
+p{
+  margin:0;
+  font-family: Arial;
+  margin-bottom: 3px;
+}
+
+button{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.profile-container{
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.profile-info-div{
+  width: 140px;
+  padding-left: 10px;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.status{
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+}
+
+.popularity{
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+}
+

@@ -1,0 +1,32 @@
+p{
+  font-family: Arial;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(139, 97, 208);
+}
+
+button{
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  font-family: Arial;
+  padding: 8px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-box{
+  width: 450px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 0px;
+}

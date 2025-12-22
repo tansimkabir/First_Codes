@@ -1,0 +1,23 @@
+p{
+  font-family: arial;
+  color: white;
+  background-color: black;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.item1-div{
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.item2-div{
+  background-color: lightblue;
+  width: 200px;
+}

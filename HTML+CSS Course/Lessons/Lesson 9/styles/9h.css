@@ -1,0 +1,68 @@
+div {
+  text-align: center;
+}
+
+.google-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.search-box {
+  font-family: Arial;
+  padding-left: 10px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px rgb(180, 177, 177);
+  margin-bottom: 20px;
+}
+
+button{
+  width: 150px;
+  height: 35px;
+  margin-right: 20px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* div {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.google-button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-button {
+  margin-right: 10px;
+} */
+

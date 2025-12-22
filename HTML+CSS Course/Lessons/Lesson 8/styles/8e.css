@@ -1,0 +1,39 @@
+.ride-request{
+  font-family: Arial;
+  font-size: 42px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+input{
+  display: block;
+  width: 400px;
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding-left: 10px;
+  height: 40px;
+}
+
+.destination-box{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.request-button{
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.schedule-button{
+  background-color: rgb(241, 241, 241);
+  color: black;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

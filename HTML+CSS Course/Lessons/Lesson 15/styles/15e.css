@@ -1,0 +1,30 @@
+body {
+  height: 3000px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.image-div {
+  position: relative;
+  top: 100px;
+  left: 100px;
+
+  width: 500px;
+  height: 500px;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+
+  position: absolute;
+  top: 20px;
+  right: 0;
+}

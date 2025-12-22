@@ -1,0 +1,29 @@
+p{
+  margin: 0;
+  font-family: Arial;
+}
+
+.main-div{
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 8px;;
+  width: 300px;
+  padding: 10px 12px 0px 12px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.small-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-family: Arial;
+  border: 0;
+  border-radius: 12px;
+  padding: 4px 10px;
+}

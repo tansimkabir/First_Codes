@@ -1,0 +1,35 @@
+.first-name-box,
+.last-name-box{
+  font-family: Arial;
+  width: 100px; 
+  height: 30px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.email-box{
+  margin: 10px 0px;
+  width: 219px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+}
+
+.email-box,
+.sign-button{
+  display: block;
+}
+
+.sign-button{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(47, 129, 224); 
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 86px;
+}
+

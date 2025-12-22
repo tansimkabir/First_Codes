@@ -1,0 +1,33 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.lightpink{
+  background-color: lightpink;
+  width: 100px;
+  height: 50px;
+}
+
+.lightblue{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row2{
+  color: white;
+  background-color: black;
+}
