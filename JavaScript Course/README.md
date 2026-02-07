@@ -1,0 +1,1 @@
+These are the exercises of the course (JavaScript) that I did on YouTube. Channel: SuperSimpleDev URL: https://www.youtube.com/watch?v=EerdGm-ehJQ
