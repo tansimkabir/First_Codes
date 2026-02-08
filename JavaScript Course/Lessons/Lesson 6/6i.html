@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>6i</title>
+  </head>
+  <body>
+    <script>
+      const num = Math.random();
+      let result = '';
+     
+      if (num < 0.5) {
+        result = 'heads'
+      } else {
+        result = 'tails';
+      }
+      console.log(`The result is ${result}`);
+
+      let guess = 'heads';
+
+      if (guess === result) {
+        console.log('You win!');
+      } else {
+        console.log('You lose!')
+      }
+    </script>
+  </body>
+</html>
