@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9d</title>
+  </head>
+  <body>
+   <input class="name-input" placeholder="Name">
+   <button onclick="
+    nameInput();
+   ">Submit</button>
+   <p class="name-text"></p>
+  </body>
+  <script>
+   function nameInput() {
+    const name = document.querySelector('.name-input').value;
+    document.querySelector('.name-text').innerHTML = `Your name is: ${name}`;
+   } 
+  </script>
+</html>
